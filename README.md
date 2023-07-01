@@ -1,2 +1,7 @@
 # My-lodash
-Lodash methods for practice
+[Lodash](https://lodash.com/docs/4.17.15) methods for practice
+
+## Array
+### chunk(array, [size=1])
+Создает массив элементов, разбитых на группы по длине. Если массив не может быть разделен равномерно, последним фрагментом будут оставшиеся элементы.
+
