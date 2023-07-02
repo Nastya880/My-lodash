@@ -7,16 +7,19 @@ function test_ft_chunk() {
     return _.isEqual(ft_chunk(element, 8), _.chunk(element, 8))
   });
 
+  // flagsResult.push(ARRAYS.map((element) => {
+  //   return _.isEqual(ft_chunk(element, 2), _.chunk(element, 2))
+  // }));
+
   let numberResultTrue = 0;
   let numberResultFalse = 0;
-  // console.log(flagsResult.includes(true));
+  // console.log(flagsResult);
 
-  for (let element in flagsResult) {
-    if (element) {
+  for (let i = 0; i < flagsResult.length; i++) {
+    if (Number(flagsResult[i]))
       numberResultTrue++;
-      continue ;
-    }
-    numberResultFalse++;
+    else
+      numberResultFalse++;
   }
 
   message_results(numberResultTrue, numberResultFalse);

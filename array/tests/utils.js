@@ -7,7 +7,7 @@ const ARRAYS = [
   [5, 6, 7, 2, 0, 1]
 ];
 
-const message_results = (numberResultTrue = 0, numberResultFalse = 0) => {
+const message_results = (numberResultTrue, numberResultFalse) => {
   console.log(`Number of tests with TRUE results = ${numberResultTrue}`);
   console.log(`Number of tests with FALSE results = ${numberResultFalse}`);
 }

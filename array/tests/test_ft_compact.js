@@ -13,12 +13,11 @@ function test_ft_compact() {
   let numberResultTrue = 0;
   let numberResultFalse = 0;
 
-  for (let element in flagsResult) {
-    if (element) {
+  for (let i = 0; i < flagsResult.length; i++) {
+    if (Number(flagsResult[i]))
       numberResultTrue++;
-      continue ;
-    }
-    numberResultFalse++;
+    else
+      numberResultFalse++;
   }
 
   message_results(numberResultTrue, numberResultFalse);
