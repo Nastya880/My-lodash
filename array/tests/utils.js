@@ -3,7 +3,7 @@ const delimetr = (function_name) => console.log(`============================${f
 const ARRAYS = [
   [1, 2, 3, 4, 5, 6],
   ["first", "second", "third", 4, 5, 6],
-  ["first", "undefined", "null", null, 0, 4, 9, 3, "", "hello", false],
+  ["first", "undefined", "null", undefined, null, 0, 4, 9, undefined, 3, "", "hello", false],
   [5, 6, 7, 2, 0, 1]
 ];
 

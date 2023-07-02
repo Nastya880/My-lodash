@@ -1,15 +1,17 @@
 import {delimetr, ARRAYS, message_results} from "./utils.js"
-import {ft_chunk} from "../ft_chunk.js"
+import {ft_compact} from "../ft_compact.js"
 
-function test_ft_chunk() {
-  delimetr("FT_CHUNK");
+function test_ft_compact() {
+  delimetr("FT_COMPACT");
+
   const flagsResult = ARRAYS.map((element) => {
-    return _.isEqual(ft_chunk(element, 8), _.chunk(element, 8))
+    // console.log(`for [${element}] my compact ${ft_compact(element)}`);
+    // console.log(`for [${element}] original compact ${_.compact(element)}`);
+    return _.isEqual(ft_compact(element), _.compact(element))
   });
 
   let numberResultTrue = 0;
   let numberResultFalse = 0;
-  // console.log(flagsResult.includes(true));
 
   for (let element in flagsResult) {
     if (element) {
@@ -22,4 +24,4 @@ function test_ft_chunk() {
   message_results(numberResultTrue, numberResultFalse);
 }
 
-export {test_ft_chunk}
+export {test_ft_compact}
