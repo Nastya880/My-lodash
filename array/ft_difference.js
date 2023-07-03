@@ -9,7 +9,7 @@
 // Return false.
 // Return SameValueNonNumber(x, y).
 // создать массив -> пройтись по массиву: если элемент не включен в исходник, то добавить в новый, иначе - игнор
-
+// сравнивает два или более массива и возвращает разницу между ними
 function ft_difference(array, values) {
   const result = [];
 

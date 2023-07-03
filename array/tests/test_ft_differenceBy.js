@@ -5,7 +5,7 @@ function test_ft_differenceBy() {
   delimetr("FT_DIFFERENCEBY");
 
   const flagsResult = ARRAYS.map((element) => {
-    return _.isEqual(ft_differenceBy(element, [4, 2, 1]), _.differenceBy(element, [4, 2, 1]))
+    return _.isEqual(ft_differenceBy(element, [4.3, 2.1, 1.2], Math.floor), _.differenceBy(element, [4.3, 2.1, 1.2], Math.floor))
   });
 
   // console.log(flagsResult);
