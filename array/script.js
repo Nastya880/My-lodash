@@ -7,6 +7,7 @@ import {test_ft_differenceWith} from "./tests/test_ft_differenceWith.js";
 import {test_ft_drop} from "./tests/test_ft_drop.js";
 // import {test_ft_dropRight} from "./tests/test_ft_dropRight.js";
 import {test_ft_fill} from "./tests/test_ft_fill.js";
+import {test_ft_findIndex} from "./tests/test_ft_findIndex.js";
 
 test_ft_chunk();
 test_ft_compact();
@@ -17,3 +18,4 @@ test_ft_differenceWith();
 test_ft_drop();
 // test_ft_dropRight();
 test_ft_fill();
+test_ft_findIndex();
