@@ -4,7 +4,7 @@
 function ft_dropRight(array, n = 1) {
   const result = [];
 
-  for(let i = 0; i < array.length - n; i++) {
+  for(let i = array.length - 1; i < n; i--) {
     if (array[i])
     	result.push(array[i]);
   }

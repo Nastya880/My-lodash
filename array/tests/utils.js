@@ -7,6 +7,8 @@ const ARRAYS = [
   [5, 6, 7, 2, 0, 1],
   [1.3, 2.5, 3.8, 4.4, 5.7, 6.3],
   ["first", "second", "third", 4.6, 5.2, 6.98],
+  [1, 2],
+  []
 ];
 
 const message_results = (numberResultTrue, numberResultFalse) => {
