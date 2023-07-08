@@ -9,6 +9,7 @@ import {test_ft_drop} from "./tests/test_ft_drop.js";
 import {test_ft_fill} from "./tests/test_ft_fill.js";
 import {test_ft_findIndex} from "./tests/test_ft_findIndex.js";
 import {test_ft_flatten} from "./tests/test_ft_flatten.js";
+import {test_ft_flattenDeep} from "./tests/test_ft_flattenDeep.js";
 
 test_ft_chunk();
 test_ft_compact();
@@ -21,3 +22,4 @@ test_ft_drop();
 test_ft_fill();
 test_ft_findIndex();
 test_ft_flatten();
+test_ft_flattenDeep();
