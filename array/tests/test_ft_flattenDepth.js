@@ -1,5 +1,5 @@
 import {delimetr, ARRAYS, message_results} from "./utils.js"
-import {ft_flattenDeep} from "../ft_flattenDeep.js"
+import {ft_flattenDepth} from "../ft_flattenDepth.js"
 
 function test_ft_flattenDepth() {
   delimetr("FT_FLATTENDEPTH");
